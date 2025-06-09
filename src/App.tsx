@@ -1,7 +1,7 @@
 import React from 'react';
 import { ChatProvider } from './context/ChatContext';
 import ChatWindow from './components/ChatWindow';
-import ChatInput from './components/Chatinput';
+import ChatInput from './components/ChatInput';
 
 const App: React.FC = () => {
   return (
