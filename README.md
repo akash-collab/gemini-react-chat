@@ -2,8 +2,7 @@
 
 Welcome to **Gemini React Chat** — a modern, minimal AI-powered chat interface powered by Google's Gemini models, built using **React**, **TypeScript**, and **Vite**. This project demonstrates the integration of LLM-powered chat with a clean React-based frontend.
 
-[![MIT License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  
-[Live Demo](#) <!-- Add deployed link here once available -->
+[Live Demo](https://gemini-react-chat.vercel.app/)
 
 ---
 
@@ -33,9 +32,23 @@ The Gemini Chat App serves as a lightweight frontend for interacting with AI mod
 
 ## 📁 Folder Structure
 
-gemini-react-chat/ ├── public/               # Static assets ├── src/ │   ├── assets/           # Media/icons/images │   ├── components/       # Reusable UI components │   ├── hooks/            # Custom React hooks │   ├── lib/              # API logic (LLM interaction) │   ├── pages/            # Chat/landing pages │   ├── styles/           # Global and component styles │   ├── App.tsx           # Root App component │   ├── main.tsx          # Vite entry point │   └── vite-env.d.ts     # TypeScript definitions ├── .eslintrc.cjs         # ESLint config ├── tsconfig.json         # TypeScript config ├── vite.config.ts        # Vite app config ├── package.json          # App dependencies └── README.md             # You’re reading it now 😄
+**Directory descriptions:**
+- **public/**: Static assets (favicons, index.html, etc.)
+- **src/assets/**: Media, icons, images
+- **src/components/**: Reusable UI components
+- **src/hooks/**: Custom React hooks
+- **src/lib/**: API logic (LLM interaction)
+- **src/pages/**: Chat and landing pages
+- **src/styles/**: Global and component styles
+- **src/App.tsx**: Root app component
+- **src/main.tsx**: Vite entry point
+- **src/vite-env.d.ts**: TypeScript definitions
 
-
+- **.eslintrc.cjs**: ESLint configuration
+- **tsconfig.json**: TypeScript configuration
+- **vite.config.ts**: Vite configuration
+- **package.json**: App dependencies
+- **README.md**: Documentation
 ---
 
 ## 🚀 Getting Started
@@ -147,4 +160,4 @@ Built with ❤️ by [Akash](https://github.com/akash-collab)
 ---
 
 > 💡 _Don't forget to replace or hide any private API keys or credentials before making your repository public._
-
+[![MIT License](https://img.shields.io/badge/license-MIT-green)](LICENSE)  
